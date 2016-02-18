@@ -6,7 +6,7 @@ public class DB_Conector{
     private final Connection toSQL;
     private final String server = "jdbc:mysql://localhost/AutopartesTona";
     private final String user = "root";
-    private final String passwd = "";
+    private final String passwd = "123456";
     private final String driver = "com.mysql.jdbc.Driver";
     
     public DB_Conector() throws ClassNotFoundException, SQLException{
